@@ -1,0 +1,58 @@
+CSS
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2ebff;
+  color: #2a163f;
+}
+
+header {
+  background-color: #4b2c82;
+  color: white;
+  text-align: center;
+  padding: 30px 15px;
+}
+
+main {
+  width: 90%;
+  max-width: 850px;
+  margin: 25px auto;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+h2 {
+  color: #4b2c82;
+}
+
+.ranking {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.slime {
+  background-color: #cbb5ff;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+}
+
+footer {
+  background-color: #4b2c82;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
+
+@media (min-width: 600px) {
+  .slime {
+    width: 45%;
+  }
+}
